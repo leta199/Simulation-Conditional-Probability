@@ -20,10 +20,9 @@ assign successes to simlist based on the index of counter.
 mean of simlist to simulate probability 
 
 ## PROJECT STRUCTURE Walmart‑Data‑Mining‑and‑Exploratory‑Data‑Analysis‐/     
-[Simulation- Law of Large Numbers](https://github.com/leta199/Simulation-Law-of-Large-Numbers-)/  
-├── [Law of large numbers in action](https://github.com/leta199/Simulation-Law-of-Large-Numbers-/blob/main/Law%20of%20large%20numbers%20in%20action.png)/   
-├── [Law of large numbers sim/](https://github.com/leta199/Simulation-Law-of-Large-Numbers-/blob/main/Law_of_Large_Numbers_sim.r)/   
-└── [README.md/](https://github.com/leta199/Simulation-Law-of-Large-Numbers-/blob/main/README.md)/  
+[Simulation- Conditional Probability](https://github.com/leta199/Simulation-Conditional-Probability)/  
+├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/    
+└── [README.md/](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/  
 
 Based on an example from:
 "Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
