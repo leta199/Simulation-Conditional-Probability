@@ -22,7 +22,7 @@ mean of simlist to simulate probability
 ## PROJECT STRUCTURE Walmart‑Data‑Mining‑and‑Exploratory‑Data‑Analysis‐/     
 [Simulation- Conditional Probability](https://github.com/leta199/Simulation-Conditional-Probability)/  
 ├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/    
-└── [README.md/](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/  
+└── [README.md](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/  
 
 Based on an example from:
 "Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
