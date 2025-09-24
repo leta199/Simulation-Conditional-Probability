@@ -19,7 +19,7 @@ iterate up our counter.
 assign successes to simlist based on the index of counter.   
 mean of simlist to simulate probability 
 
-## PROJECT STRUCTURE Walmart‑Data‑Mining‑and‑Exploratory‑Data‑Analysis‐/     
+## PROJECT STRUCTURE      
 [Simulation- Conditional Probability](https://github.com/leta199/Simulation-Conditional-Probability)/  
 ├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/    
 └── [README.md](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/  
