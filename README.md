@@ -21,17 +21,28 @@ mean of simlist to simulate probability
 
 ## PROJECT STRUCTURE      
 [Simulation- Conditional Probability](https://github.com/leta199/Simulation-Conditional-Probability)/  
-├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/    
+├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/   
+├── [Beforetest_conditional_function](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Beforetests_conditional_function.r)  
 └── [README.md](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/  
+
+## FUNCTION EXPLANATION
+
+In order to create the function `conditional_sum_prob`, I carried out the following tasks:
+
+- Initiated the function creation process with the `function()` function to encapsulate my code block from the simulation.
+- Optimised counter selection using a similar process to my Law of Large Numbers simulation to investigate the convergence to the analytical solution with different sample sizes
+- Visualised each of the three trail functions to pick best simulated proababilty comapred to known analytical solution.
+- Final function defined.
 
 Based on an example from:
 "Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
 
 ## WHAT DOES THE FUTURE HOLD?  
  Going into the future I want to add the following:  
- 1) Introduce a function called conditional_dice_prob() or the like to calculte the conditional probability of entered arguments and for reproducibility.  
- 2) Add tests such as edge case testing, reproducibility, ccuracy vs theoretical probability and distribution tests.
- 3) Finally adding visualisations like looking at the dictribution of sums with a histogram. 
+ 1) Introduce a function called conditional_sum_prob() or the like to calculte the conditional probability of entered arguments and for reproducibility.  ✅
+ 2) Add tests such as edge case testing, reproducibility, accuracy vs theoretical probability and distribution tests. []
+ 3) Examples of function use cases the README. []  
+ 4) Finally adding visualisations like looking at the dictribution of sums with a histogram. []
 
 ## AUTHORS   
 [leta199](https://github.com/leta199)  
