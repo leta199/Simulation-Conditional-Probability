@@ -1,7 +1,7 @@
 # Simulation-Conditional-Probability
 
-Programming conditional probaility in R.   
-
+Programming conditional probaility in R of two dice rolls.   
+ 
 ## HOW IT'S MADE 
 Languages used: R verion (4.5.1)    
 Environement: RStudio
