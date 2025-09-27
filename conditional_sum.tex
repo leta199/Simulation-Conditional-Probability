@@ -1,0 +1,50 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\begin{document}
+
+When you roll two dice, we define our sample space as the result of the first die roll and the sum of both dice.
+
+\[
+\Omega = \left\{ \text{(first dice roll, sum of dice)} \right\}
+\]
+
+Define event \( A \) as:
+
+\[
+A = \left\{ \text{first die roll is 2, sum of dice is 7} \right\}
+\]
+
+Let \( X_1 \) and \( X_2 \) be random variables representing the outcomes of the first and second dice, respectively.  
+The sum is represented as \( X_1 + X_2 \).
+
+We are interested in computing the conditional probability,
+
+\[
+P(A) = P(X = 2 \mid X_1 + X_2 = 7)
+\]
+
+Using the definition of conditional probability,
+
+\[
+P(X = 2 \mid X_1 + X_2 = 7) = \frac{P(X = 2 \cap X_1 + X_2 = 7)}{P(X_1 + X_2 = 7)}
+\]
+
+We first find all outcomes such that \( X_1 + X_2 = 7 \):
+
+\[
+\{ (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) \}
+\]
+
+Of these six outcomes, only one has \(X_1 = 2 \), namely \( (2,5) \).
+
+So:
+
+\[
+P(X = 2 \mid X_1 + X_2 = 7) = \frac{1}{6}
+\]
+
+\end{document}
