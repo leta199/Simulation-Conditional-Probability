@@ -52,21 +52,23 @@ It has two main arguments:
 `sum_of_tosses`- what is the sum of two dices tossed   
 
 1) Probability of the first toss being 2 given the sum of the two is 7 would be:  
-conditional_sum_prob(2,7)   
+`conditional_sum_prob(2,7`)   
 returns [0.167] ≈ 1/6 
 
 2) Probability of first toss being 7 given sum is 12 would be:
-conditional_sum_prob(7,12)
+`conditional_sum_prob(7,12)`
 returns  ["Please enter a value from 1-6 for the first toss"]
 
 3) Probability of first toss being 3 given sum is 14 would be:
-conditional_sum_prob(3,14)
+`conditional_sum_prob(3,14)`
 returns ["Please enter a value from 2-12 for the sum of tosses"]
 
 4) Probability of first toss being 7 given sum is 14 would be:
+`conditonal_prob_Sum(7,14)`
 returns  ["Please enter a value from 1-6 for the first toss"]
          ["Please enter a value from 2-12 for the sum of tosses"]
-5) Probability of first toss being 1 given sum is 8 would be:
+6) Probability of first toss being 1 given sum is 8 would be:
+`conditonal_sum_prob(1,8)`
 returns [0] 
    
 Based on an example from:
