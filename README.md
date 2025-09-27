@@ -10,24 +10,16 @@ Packages: `testthat`
 ## METHODS AND TECHNIQUES  
 **Setup of simulation**   
 Setting up the number of successful trials (n) our loop stops at.  
-counter to store successful trials.   
-simlist to count the number of successes fo the probabilty of interest. 
+Created `counter` to store successful trials.   
+Utilised `simlist` to count the number of successes of the probabilty of interest. 
 
 **Simulation loop**  
-while loop that runs  as long as our counter is < 10,000  
-if statement- if sum is 7 store  the success ( 2 given sum is 7 in "success" as 1 and 0 otherwise.   
+**While loop** that runs  as long as our counter is < 10,000  
+**If statement**- if sum is 7 store  the success ( 2 given sum is 7 in "success" as 1 and 0 otherwise.   
 iterate up our counter.     
-assign successes to simlist based on the index of counter.   
-mean of simlist to simulate probability. 
+Then assign successes to `simlist` based on the index of `counter`.   
+Simulate probability with `mean()` of simlist. 
 
-## PROJECT STRUCTURE      
-[Simulation- Conditional Probability](https://github.com/leta199/Simulation-Conditional-Probability)/  
-├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/   
-├── [Beforetest_conditional_function](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Beforetests_conditional_function.r)/  
-├── [README.md](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/    
-├── [Tests_conditional_prob](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Tests_conditional_prob.r)/  
-├── [conditional_sum_analytical_tex](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/conditional_sum.tex)/  
-└──[conditonal_sum_pdf_analytical](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/conditional_sum_analytical_pdf.pdf)/
 ## FUNCTION EXPLANATION
 
 In order to create the function `conditional_sum_prob`, I carried out the following tasks:
@@ -72,8 +64,17 @@ returns  ["Please enter a value from 1-6 for the first toss"]
                     
 6) Probability of first toss being 1 given sum is 8 would be:  
 `conditonal_sum_prob(1,8)`  
-returns [0] 
-   
+returns [0]
+
+ ## PROJECT STRUCTURE      
+[Simulation- Conditional Probability](https://github.com/leta199/Simulation-Conditional-Probability)/  
+├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/   
+├── [Beforetest_conditional_function](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Beforetests_conditional_function.r)/  
+├── [README.md](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/    
+├── [Tests_conditional_prob](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Tests_conditional_prob.r)/  
+├── [conditional_sum_analytical_tex](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/conditional_sum.tex)/  
+└──[conditonal_sum_pdf_analytical](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/conditional_sum_analytical_pdf.pdf)/
+  
 Based on an example from:
 "Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
 
