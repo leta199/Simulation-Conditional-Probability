@@ -4,7 +4,8 @@ Programming conditional probaility in R of two dice rolls.
  
 ## HOW IT'S MADE 
 Languages used: R verion (4.5.1)    
-Environement: RStudio
+Environement: RStudio  
+Packages: `testthat`
 
 ## METHODS AND TECHNIQUES  
 **Setup of simulation**   
@@ -24,8 +25,9 @@ mean of simlist to simulate probability.
 ├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/   
 ├── [Beforetest_conditional_function](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Beforetests_conditional_function.r)/  
 ├── [README.md](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/    
-└──[Tests_conditional_prob](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Tests_conditional_prob.r)/
-
+├── [Tests_conditional_prob](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Tests_conditional_prob.r)/  
+├── [conditional_sum_analytical_tex](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/conditional_sum.tex)/  
+└──[conditonal_sum_pdf_analytical](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/conditional_sum_analytical_pdf.pdf)/
 ## FUNCTION EXPLANATION
 
 In order to create the function `conditional_sum_prob`, I carried out the following tasks:
