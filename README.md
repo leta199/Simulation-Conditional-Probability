@@ -22,9 +22,9 @@ mean of simlist to simulate probability
 ## PROJECT STRUCTURE      
 [Simulation- Conditional Probability](https://github.com/leta199/Simulation-Conditional-Probability)/  
 ├── [Conditional probability](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Conditional%20probability.r)/   
-├── [Beforetest_conditional_function](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Beforetests_conditional_function.r)  
+├── [Beforetest_conditional_function](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Beforetests_conditional_function.r)/  
 ├── [README.md](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/README.md)/    
-└──[Tests_conditional_prob](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Tests_conditional_prob.r)
+└──[Tests_conditional_prob](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/Tests_conditional_prob.r)/
 
 ## FUNCTION EXPLANATION
 
@@ -43,8 +43,32 @@ For the final tests of the functions I carried out the following tests:
 
 3) **If statement revision**- limited values that could be entered ustilisng if statements   
 
-4) **Error messages with if statements**- changed the output of format messages utilising `$` to call only specific error messages 
+4) **Error messages with if statements**- changed the output of format messages utilising `$` to call only specific error messages
 
+#FUNCTION EXAMPLES  
+The function I created `conditional_sum_prob()` calculates the probablity of your first toss being a specific value given the sum of two dice rolls is a specific value.  
+It has two main arguments:  
+`first_toss`- what is the value of the first toss   
+`sum_of_tosses`- what is the sum of two dices tossed   
+
+1) Probability of the first toss being 2 given the sum of the two is 7 would be:  
+conditional_sum_prob(2,7)   
+returns [0.167] ≈ 1/6 
+
+2) Probability of first toss being 7 given sum is 12 would be:
+conditional_sum_prob(7,12)
+returns  ["Please enter a value from 1-6 for the first toss"]
+
+3) Probability of first toss being 3 given sum is 14 would be:
+conditional_sum_prob(3,14)
+returns ["Please enter a value from 2-12 for the sum of tosses"]
+
+4) Probability of first toss being 7 given sum is 14 would be:
+returns  ["Please enter a value from 1-6 for the first toss"]
+         ["Please enter a value from 2-12 for the sum of tosses"]
+5) Probability of first toss being 1 given sum is 8 would be:
+returns [0] 
+   
 Based on an example from:
 "Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
 
