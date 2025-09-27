@@ -9,7 +9,7 @@ Environement: RStudio
 ## METHODS AND TECHNIQUES  
 **Setup of simulation**   
 Setting up the number of successful trials (n) our loop stops at.  
-counter to store successful trials   
+counter to store successful trials.   
 simlist to count the number of successes fo the probabilty of interest. 
 
 **Simulation loop**  
@@ -17,7 +17,7 @@ while loop that runs  as long as our counter is < 10,000
 if statement- if sum is 7 store  the success ( 2 given sum is 7 in "success" as 1 and 0 otherwise.   
 iterate up our counter.     
 assign successes to simlist based on the index of counter.   
-mean of simlist to simulate probability 
+mean of simlist to simulate probability. 
 
 ## PROJECT STRUCTURE      
 [Simulation- Conditional Probability](https://github.com/leta199/Simulation-Conditional-Probability)/  
@@ -31,7 +31,7 @@ mean of simlist to simulate probability
 In order to create the function `conditional_sum_prob`, I carried out the following tasks:
 
 - Initiated the function creation process with the `function()` function to encapsulate my code block from the simulation.
-- Optimised counter selection using a similar process to my Law of Large Numbers simulation to investigate the convergence to the analytical solution with different sample sizes
+- Optimised counter selection using a similar process to my Law of Large Numbers simulation to investigate the convergence to the analytical solution with different sample sizes.
 - Visualised each of the three trail functions to pick best simulated proababilty comapred to known analytical solution.
 - Final beta function defined.
 
@@ -41,9 +41,9 @@ For the final tests of the functions I carried out the following tests:
 
 2) **Extreme values**- function would continue to run when values where outside of reasonable bounds.   
 
-3) **If statement revision**- limited values that could be entered ustilisng if statements   
+3) **If statement revision**- limited values that could be entered ustilisng if statements.   
 
-4) **Error messages with if statements**- changed the output of format messages utilising `$` to call only specific error messages
+4) **Error messages with if statements**- changed the output of format messages utilising `$` to call only specific error messages.
 
 ## FUNCTION EXAMPLES  
 The function I created `conditional_sum_prob()` calculates the probablity of your first toss being a specific value given the sum of two dice rolls is a specific value.  
