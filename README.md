@@ -86,7 +86,7 @@ Based on an example from:
  Going into the future I want to add the following:  
  1) Introduce a function called conditional_sum_prob() or the like to calculte the conditional probability of entered arguments and for reproducibility  ✅
  2) Add tests such as edge case testing, reproducibility, accuracy vs theoretical probability and distribution tests ✅
- 3) Examples of function use cases the README. ✅  
+ 3) Examples of function use cases the README ✅  
 
 ## AUTHORS   
 [leta199](https://github.com/leta199)  
