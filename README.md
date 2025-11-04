@@ -7,6 +7,10 @@ Languages used: R verion (4.5.1)
 Environement: RStudio  
 Packages: `testthat`
 
+[![Language: R](https://img.shields.io/badge/Language-R-276DC3.svg?style=flat-square)](https://www.r-project.org/)
+[![Built with RStudio](https://img.shields.io/badge/IDE-RStudio-75AADB?style=for‐the‐badge&logo=rstudio&logoColor=white)](https://www.rstudio.com/)
+![Status](https://img.shields.io/badge/Status-Completed-lightgrey)
+
 ## METHODS AND TECHNIQUES  
 **Setup of simulation**   
 Setting up the number of successful trials (n) our loop stops at.  
