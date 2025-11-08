@@ -46,8 +46,8 @@ For the final tests of the functions I carried out the following tests:
 ## FUNCTION EXAMPLES  
 The function I created `conditional_sum_prob()` calculates the probablity of your first toss being a specific value given the sum of two dice rolls is a specific value.  
 It has two main arguments:  
-`first_toss`- what is the value of the first toss   
-`sum_of_tosses`- what is the sum of two dices tossed   
+`first_toss`- what is the value of the first toss.   
+`sum_of_tosses`- what is the sum of two dices tossed.   
 
 1) Probability of the first toss being 2 given the sum of the two is 7 would be:  
 `conditional_sum_prob(2,7`)   
@@ -83,7 +83,7 @@ Based on an example from:
 "Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
 
 ## WHAT DOES THE FUTURE HOLD?  
- Going into the future I want to add the following:  
+
  1) Introduce a function called conditional_sum_prob() or the like to calculte the conditional probability of entered arguments and for reproducibility  ✅
  2) Add tests such as edge case testing, reproducibility, accuracy vs theoretical probability and distribution tests ✅
  3) Examples of function use cases the README ✅  
