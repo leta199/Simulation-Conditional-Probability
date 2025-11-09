@@ -1,9 +1,14 @@
 # Simulation-Conditional-Probability
+This project focuses on created reuseable functions in R that can be part of a larger program. It calculates conditional probability 
 
-Programming conditional probaility in R of two dice rolls.   
+Using stochastic simulations to predict the probability of a first dice roll given the sum of two dice rolls. This project will cover:
+
+- Simualtion creation using loops
+- Creation of reauseable function
+- Test of the function (Edge cases, error messages and extreme values)
  
 ## HOW IT'S MADE 
-Languages used: R verion (4.5.1)    
+Languages used: R version (4.5.1)    
 Environement: RStudio  
 Packages: `testthat`
 
