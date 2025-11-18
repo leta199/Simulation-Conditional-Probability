@@ -19,11 +19,13 @@ Packages: `testthat`
 
 ## METHODS AND TECHNIQUES  
 **Setup of simulation**   
+
 Setting up the number of successful trials (n) our loop stops at.  
 Created `counter` to store successful trials.   
 Utilised `simlist` to count the number of successes of the probabilty of interest. 
 
 **Simulation loop**  
+
 **While loop** that runs  as long as our counter is < 10,000  
 **If statement**- if sum is 7 store  the success ( 2 given sum is 7 in "success" as 1 and 0 otherwise.   
 iterate up our counter.     
