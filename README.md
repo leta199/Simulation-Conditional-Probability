@@ -1,6 +1,5 @@
 # Simulation - Conditional Probability
 This project focuses on created reuseable functions in R that can be part of a larger program. It calculates conditional probability 
-
 Using stochastic simulations to predict the probability of a first dice roll given the sum of two dice rolls. This project will cover:
 
 - Simualtion creation using loops
