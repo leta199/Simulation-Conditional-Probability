@@ -88,7 +88,7 @@ returns [0]
   
 ## ACKNOWLEDGEMENTS
 
-"Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
+Based on an example from "Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
 
 ## WHAT DOES THE FUTURE HOLD?  
 
