@@ -86,7 +86,8 @@ returns [0]
 |├── [conditional_sum_analytical_tex](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/conditional_sum.tex)  
 |└──[conditonal_sum_pdf_analytical](https://github.com/leta199/Simulation-Conditional-Probability/blob/main/conditional_sum_analytical_pdf.pdf)
   
-Based on an example from:
+## ACKNOWLEDGEMENTS
+
 "Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
 
 ## WHAT DOES THE FUTURE HOLD?  
