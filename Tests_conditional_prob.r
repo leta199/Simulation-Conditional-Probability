@@ -43,7 +43,7 @@ test_that("conditional_sum_prob returns 0 for impossible arguments",
 #I have to make it only accept integers from 1-6 for arg 1 and 2-12 for arg 2
 
 #FUNCTION REVISION------------------------------------------------------------------------------------------ ---------------------------------------------  
-#I will add a few if statements to reject extreme values above or below the realms of possibility with six sided dice
+#I will add a few if statements to reject extreme values above or below the realms of possibility with six-sided dice
 
 conditional_sum_prob<- function(first_toss, sum_of_two_tosses) {
   simlist<-numeric(1000)
