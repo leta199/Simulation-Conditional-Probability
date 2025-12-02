@@ -1,6 +1,6 @@
 #FUNCTION CREATION ####--------------------------------------------------------------------------------
 #Creating a function to calculate the conditional probability of first toss given a specific sum of two tosses 
-#Let's tinker around to find out how we do this. 
+#Let's tinker around to find out how we do this ;-)
 
 conditional_sum_tinker<- function(first_toss, sum_of_two_tosses) { #initiating the function and creating allowable arguments  
   
