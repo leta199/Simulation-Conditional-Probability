@@ -37,6 +37,9 @@ In order to create the function `conditional_sum_prob`, I carried out the follow
 
 - Initiated the function creation process with the `function()` function to encapsulate my code block from the simulation.
 - Optimised counter selection using a similar process to my Law of Large Numbers simulation to investigate the convergence to the analytical solution with different sample sizes.
+  This was explored with the reulst on the following graph:
+- <img width="926" height="828" alt="Image" src="https://github.com/user-attachments/assets/4e95bf58-ef07-4502-9ba3-7dfddaaa0079" />
+
 - Visualised each of the three trail functions to pick best simulated proababilty comapred to known analytical solution.
 - Final beta function defined.
 
