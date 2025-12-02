@@ -23,7 +23,7 @@ while (counter<n) {   # while loop- iterates as long as our counter < n
 
 mean(simlist)
 #This is close to the calculated probability of 1/6 ≈ 0.16666667
-#Fun fact-interestingly this loop will run until we have 10,000 successful trials 
+#Fun fact-interestingly this loop will  run until we have 10,000 successful trials 
 #but technically it will run for ≈ 60,000 instances since we only have a 1/6 chance of having a success.
 # Based on an example from:
-#"Probability with Applications and R" by Dr. Amy S. Wagaman and Dr. Robert P. Dobrow, Chapter 2
+
