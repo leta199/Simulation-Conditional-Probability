@@ -5,7 +5,7 @@ This project will cover:
 
 - Simualtion creation using loops
 - Creation of reauseable function
-- Test of the function (Edge cases, error messages and extreme values)
+- Test of the function (edge cases, error messages and extreme values)
  
 ## HOW IT'S MADE 
 Languages used: R version (4.5.1)    
