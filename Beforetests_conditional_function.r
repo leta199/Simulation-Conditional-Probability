@@ -19,8 +19,8 @@ conditional_sum_tinker(2,7)  #what is the probability of the first roll being a 
 conditional_sum_tinker(6,12) #what is the probability of the first roll being a 6 given the sum of the two rolls is 12  
 
 #OPTIMAL COUNTER LIMIT
-#Based on my LLN simulation, I know that the larger the sample size the closer the mean(simlist) (which is really
-#proportion of random tosses that meet criteria) will be to analytical probability. So let's change counter size
+#Based on my LLN simulation, I know that the larger the sample size the closer the mean (simlist) (which is really
+# proportion of random tosses that meet criteria) will be to analytical probability. So let's change counter size
 # where counter size = sample size 
 
 #Test #1- with our counter at 100 (sample size is 100)
@@ -73,7 +73,7 @@ conditional_sum_test3(2,7)
 #Visualising function convergence ####--------------------------------------------------------------------------------
 #I want to see how quickly each function converges to the analytical solution,  therefore I will compare 
 #them across large repetitions 
-#plot scatter graph that shows how each test function performs in regard to specific probability as n-> infinity
+#plot scatter graph that shows how each test function performs in regard to specific probability as n -> infinity
 
 set.seed(12677) #set seed for reproducibility across test
 n<-100          #number of repetitions of each function 
