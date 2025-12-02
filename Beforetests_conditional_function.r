@@ -137,7 +137,7 @@ abline(h=0.1666667, col="blue4", lwd=1)
 
 #Conclusion ####----------------------------------------------------------------------------------------------------------------
 #Conditional_sum_test_2 converges close to the analytical solution first and has the best balance of
-#performance and convergence so i will us counter < 1000 for the final function.
+#performance and convergence so I will us counter < 1000 for the final function.
 
 #Final Function 
 conditional_sum_prob<- function(first_toss, sum_of_two_tosses) {
