@@ -1,5 +1,5 @@
 #TESTS####--------------------------------------------------------------------------------------------
-#EDGE CASES---------------------------------------------------------------------------------------
+#EDGE CASES-------------------------------------------------------------------------------------------
 #Since this is our final function: 
 
 conditional_sum_prob<- function(first_toss, sum_of_two_tosses) {
@@ -16,6 +16,7 @@ conditional_sum_prob<- function(first_toss, sum_of_two_tosses) {
 
 #When extreme values are entered like `(9,15)` our function cannot handle them and keeps running 
 #permanently so I need to limit the range of values that can be entered into the function as arguments. 
+
 #TESTTHAT PACKAGE- Used to test if your function with specific arguments works in a way you would expect. 
 #testthat package sources: https://r-pkgs.org/testing-basics.html , https://www.youtube.com/watch?v=bx92oCMxUhg
 
