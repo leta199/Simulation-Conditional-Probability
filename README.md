@@ -72,9 +72,7 @@ returns ["Please enter a value from 2-12 for the sum of tosses"]
 
 4) Probability of first toss being 7 given sum is 14 would be:  
 `conditonal_prob_Sum(7,14)`  
-returns  ["Please enter a value from 1-6 for the first toss"]
-["Please enter a value from 2-12 for the sum of tosses"]
-                    
+returns  ["Please enter a value from 1-6 for the first toss"]  ["Please enter a value from 2-12 for the sum of tosses"]                    
 6) Probability of first toss being 1 given sum is 8 would be:  
 `conditonal_sum_prob(1,8)`  
 returns [0]
