@@ -137,8 +137,7 @@ conditional_sum_prob(5,15) #returns error message for only toss 2
 conditional_sum_prob(8,20) #returns error message for  toss 1 and 2 
 
 #Conclusion------------------------------------------------------------------------------------------------------------------------
-#Overall I believe I made a pretty robust function that covers edge cases and is very informative.
-#If I had to apply more tests I would make a histogram of the analytical vs simulated probability to see how well it matches. 
+#Overall I believe I made a pretty robust function that covers edge cases and is very informative. 
 #I would also add the ability to set your seed for reproducibility of end users. 
 
 #OUR FINAL PRODUCT----------------------------------------------------------------------------------------------------------------
