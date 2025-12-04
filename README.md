@@ -54,6 +54,7 @@ For the final tests of the functions I carried out the following tests:
 
 ## FUNCTION EXAMPLES  
 The function I created `conditional_sum_prob()` calculates the probablity of your first toss being a specific value given the sum of two dice rolls is a specific value.  
+
 It has two main arguments:  
 `first_toss`- what is the value of the first toss.   
 `sum_of_tosses`- what is the sum of two dices tossed.   
