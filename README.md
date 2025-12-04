@@ -8,7 +8,7 @@ This project will cover:
 - Test of the function (edge cases, error messages and extreme values)
  
 ## HOW IT'S MADE 
-Languages used: R version (4.5.1)    
+Languages used: R (version 4.5.1)    
 Environement: RStudio  
 Packages: `testthat`
 
